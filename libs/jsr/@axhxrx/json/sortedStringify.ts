@@ -22,11 +22,11 @@ export const isRegularObject = (value: unknown) : boolean => {
 /**
  This is a `replacer` function for JSON stringify, that avoids random key ordering. It results in stable, sorted JSON, avoiding the problem where the order of keys can change pseudo-randomly when `JSON.stringify()` is used. E.g. the output might be `'{"one": 2, "three": 4}'` one time, and `'{"three": 4, "one": 2}'` the next time.
  
- By passing this replacer to `JSON.stringify()` we ensure that the output is always consistent: in this case, `'{"one": 2, "three": 4}'`.
+ By passing this replacer to `JSON.stringify()` we ensure that the output is always consistent: in this case, `'{"one": 2, "three": 4}'`.\
  
  Supports nested objects.
  
- There are a few different approaches to this, but this is the one I chose after reviewing the [StackOverflow discussion](https://stackoverflow.com/questions/16167581/sort-object-properties-and-json-stringify/43636793#43636793), particularly because back when this code was written, some of the projects using this code still had to support MSIE, and this implementation does not require newer ECMAScript features. This is IMO the best approach from that page, although I rewrote it in more readable fashion and improved the `isRegularObject()` check with some help from @jed. 🤓 😁
+ There are a few different approaches to this, but this is the one I chose after reviewing the [StackOverflow discussion](https://stackoverflow.com/questions/16167581/sort-object-properties-and-json-stringify/43636793#43636793), particularly because we still (unofficially) support MSIE, and this implementation does not require newer ECMAScript features. This is IMO the best approach from that page, although I rewrote it in more readable fashion and improved the `isRegularObject()` check with some help from @jed. 🤓 😁
  
  (For complete details about `JSON.stringify()` and `replacer` functions, refer to [the spec](http://www.ecma-international.org/ecma-262/6.0/#sec-json.stringify).)
  */
