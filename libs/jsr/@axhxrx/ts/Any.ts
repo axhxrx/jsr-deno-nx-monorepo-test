@@ -1,7 +1,7 @@
-// eslint-disable @typescript-eslint/no-explicit-any
+/* eslint-disable @typescript-eslint/no-explicit-any */
 
 /**
- The `Any` type is a stand-in for `any` that can be used in type declarations.
+ The `Any` type is a stand-in for `any` that can be used in type declarations. TEST BRO
 
  It means "yes, I mean to use `any` here" and makes it unnecessary to litter files with linter-specific pragma comments to disable the warning about using `any`.
  */
