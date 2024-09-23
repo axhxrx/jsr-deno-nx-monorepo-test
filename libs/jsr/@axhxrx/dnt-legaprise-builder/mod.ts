@@ -23,6 +23,8 @@ function parseArgs() {
 }
 
 export async function main() {
+  console.warn("NOTE! THIS DOES NOT WORK! IT DOES NOT UNDERSTAND MONOREPO DEPENDENCIES — REFER TO THE README AT:\n\napps/angular-demo-app/README-angular-demo-app.md\n\nFOR MORE DETAILS");
+
   const { input, output } = parseArgs();
   if (!input || !output) {
     console.error("Please provide both input and output paths.");
