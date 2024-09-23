@@ -1,0 +1,6 @@
+{
+  "deno.disablePaths": [
+    "apps/angular-demo-app"
+  ],
+  "deno.future": true
+}
