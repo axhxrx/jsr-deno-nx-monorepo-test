@@ -7,7 +7,6 @@
   },
   // @masonmark 2024-09-23: this bit is not documented at the main link above (yet?); I got it from [here](https://github.com/jsr-io/jsr/discussions/399)
   "workspace": [
-    "libs/jsr/@axhxrx/dnt-legaprise-builder",
     "libs/jsr/@axhxrx/json",
     "libs/jsr/@axhxrx/ts"
   ],
