@@ -6,6 +6,8 @@ import { workspaceRoot } from '@nx/devkit';
 // For CI, you may want to set BASE_URL to the deployed application.
 const baseURL = process.env['BASE_URL'] || 'http://localhost:4200';
 
+const filename = new URL(import.meta.url).pathname
+
 /**
  * Read environment variables from file.
  * https://github.com/motdotla/dotenv
@@ -16,7 +18,7 @@ const baseURL = process.env['BASE_URL'] || 'http://localhost:4200';
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
-  ...nxE2EPreset(__filename, { testDir: './src' }),
+  ...nxE2EPreset(filename, { testDir: './src' }),
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     baseURL,
