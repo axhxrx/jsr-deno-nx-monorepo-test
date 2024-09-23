@@ -1,5 +1,6 @@
 {
   "name": "jsr-deno-nx-monorepo-test",
+  "type": "module",
   "version": "0.1.0",
   "description": "test/demo repo to explore Deno monorepo features",
   "main": "NOPE",
