@@ -1,0 +1,18 @@
+{
+  "name": "jsr-deno-nx-monorepo-test",
+  "version": "0.1.0",
+  "description": "test/demo repo to explore Deno monorepo features",
+  "main": "NOPE",
+  "scripts": {
+    "test": "NOPE"
+  },
+  "repository": {
+    "type": "git",
+    "url": "NOPE"
+  },
+  "keywords": [
+    "NOPE"
+  ],
+  "author": "NOPE",
+  "license": "MIT"
+}
