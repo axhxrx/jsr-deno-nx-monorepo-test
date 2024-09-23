@@ -1,7 +1,4 @@
 {
-  "installation": {
-    "version": "19.8.0"
-  },
   "targetDefaults": {
     "@angular-devkit/build-angular:application": {
       "cache": true,

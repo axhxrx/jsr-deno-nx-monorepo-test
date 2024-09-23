@@ -46,6 +46,8 @@
     "typescript-eslint": "^8.0.0"
   },
   "dependencies": {
+    "nx": "19.8.0",
+    "@nx/angular": "19.8.0",
     "@angular/animations": "~18.2.0",
     "@angular/common": "~18.2.0",
     "@angular/compiler": "~18.2.0",
