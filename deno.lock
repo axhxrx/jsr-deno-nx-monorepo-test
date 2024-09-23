@@ -2,6 +2,7 @@
   "version": "4",
   "specifiers": {
     "jsr:@axhxrx/json@0.1.1": "0.1.1",
+    "jsr:@axhxrx/json@0.1.2": "0.1.2",
     "jsr:@axhxrx/ts@0.1.0": "0.1.0",
     "jsr:@std/assert@1": "1.0.5",
     "jsr:@std/internal@^1.0.3": "1.0.3"
@@ -9,6 +10,9 @@
   "jsr": {
     "@axhxrx/json@0.1.1": {
       "integrity": "6132cc80c71be2815a29e513a180e8fa39c223f860135ab9d38c4b6fc2f51609"
+    },
+    "@axhxrx/json@0.1.2": {
+      "integrity": "10311d370fd9a0a30e49a0ae259c65477f1324e4d402cf1177c7f97e3f1c45f9"
     },
     "@axhxrx/ts@0.1.0": {
       "integrity": "7cd497eab0f51092ae40bcc50a25c31c0db9bbec94312d13a6d93967cc241fd1"
@@ -24,7 +28,59 @@
     }
   },
   "workspace": {
+    "dependencies": [
+      "jsr:@deno/dnt@~0.41.3"
+    ],
+    "packageJson": {
+      "dependencies": [
+        "npm:@angular-devkit/build-angular@18.2",
+        "npm:@angular-devkit/core@18.2",
+        "npm:@angular-devkit/schematics@18.2",
+        "npm:@angular/animations@18.2",
+        "npm:@angular/cli@18.2",
+        "npm:@angular/common@18.2",
+        "npm:@angular/compiler-cli@18.2",
+        "npm:@angular/compiler@18.2",
+        "npm:@angular/core@18.2",
+        "npm:@angular/forms@18.2",
+        "npm:@angular/language-service@18.2",
+        "npm:@angular/platform-browser-dynamic@18.2",
+        "npm:@angular/platform-browser@18.2",
+        "npm:@angular/router@18.2",
+        "npm:@eslint/js@^9.8.0",
+        "npm:@jsr/axhxrx__json@~0.1.2",
+        "npm:@nx/angular@19.8.0",
+        "npm:@nx/devkit@19.8.0",
+        "npm:@nx/eslint-plugin@19.8.0",
+        "npm:@nx/eslint@19.8.0",
+        "npm:@nx/js@19.8.0",
+        "npm:@nx/playwright@19.8.0",
+        "npm:@nx/web@19.8.0",
+        "npm:@playwright/test@^1.36.0",
+        "npm:@schematics/angular@18.2",
+        "npm:@swc-node/register@~1.9.1",
+        "npm:@swc/core@~1.5.7",
+        "npm:@swc/helpers@~0.5.11",
+        "npm:@typescript-eslint/utils@^8.6.0",
+        "npm:angular-eslint@^18.3.0",
+        "npm:eslint-config-prettier@9",
+        "npm:eslint-plugin-playwright@^1.6.2",
+        "npm:eslint@^9.8.0",
+        "npm:nx@19.8.0",
+        "npm:prettier@^2.6.2",
+        "npm:rxjs@7.8",
+        "npm:tslib@^2.3.0",
+        "npm:typescript-eslint@8",
+        "npm:typescript@~5.5.2",
+        "npm:zone.js@~0.14.3"
+      ]
+    },
     "members": {
+      "libs/jsr/@axhxrx/dnt-legaprise-builder": {
+        "dependencies": [
+          "jsr:@std/assert@1"
+        ]
+      },
       "libs/jsr/@axhxrx/json": {
         "dependencies": [
           "jsr:@std/assert@1"

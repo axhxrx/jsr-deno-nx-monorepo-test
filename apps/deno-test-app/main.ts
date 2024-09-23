@@ -1,5 +1,5 @@
-import { Any } from 'jsr:@axhxrx/ts@0.1.1';
-import { sortedStringify } from 'jsr:@axhxrx/json@0.1.2';
+import { Any } from '@axhxrx/ts';
+import { sortedStringify } from '@axhxrx/json';
 
 class Beast {
   constructor(readonly name: string, readonly power: Any = {fire: true, electricity: true, radiation: false}) {

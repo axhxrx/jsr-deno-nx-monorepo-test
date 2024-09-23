@@ -1,4 +1,4 @@
-import type { Any } from 'jsr:@axhxrx/ts@0.1.1'
+import type { Any } from '@axhxrx/ts'
 
 /**
  Like `JSON.stringify()`, but without random key ordering. This implementation sorts the keys, including for any nested objects, and outputs a strings where the keys are always in the same stable order.
