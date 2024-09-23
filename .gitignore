@@ -3,3 +3,6 @@
 .nx/cache
 .nx/workspace-data
 .DS_Store
+
+.angular
+node_modules

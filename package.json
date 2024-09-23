@@ -14,5 +14,10 @@
     "NOPE"
   ],
   "author": "NOPE",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@angular-devkit/core": "~18.2.0",
+    "@nx/angular": "^19.8.0"
+  },
+  "dependencies": {}
 }
