@@ -5,6 +5,7 @@ This repo is a test/demonstration of a monorepo setup using Deno. I wrote this t
 As of this writing 2024-09-23, the "workspaces" feature isn't yet covered in the [docs](https://docs.deno.com/runtime/fundamentals/configuration/) and Deno 2 is not yet released. (I created this repo using `deno 2.0.0-rc.4`.)
 
 ## what
+
 This monorepo contains two libraries, both of which are published to JSR.
 
 Via the config in `./deno.jsonc`, one library can depend on the other, and Deno will automatically use the local source code instead of trying to fetch the published version from JSR.
