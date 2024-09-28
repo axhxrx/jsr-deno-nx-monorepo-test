@@ -151,6 +151,7 @@
         "npm:@angular/platform-browser@18.2",
         "npm:@angular/router@18.2",
         "npm:@eslint/js@^9.8.0",
+        "npm:@jsr/axhxrx__json@~0.1.2",
         "npm:@nx/angular@19.8.0",
         "npm:@nx/devkit@19.8.0",
         "npm:@nx/eslint-plugin@19.8.0",
@@ -178,11 +179,6 @@
       ]
     },
     "members": {
-      "libs/jsr/@axhxrx/dnt-legaprise-builder": {
-        "dependencies": [
-          "jsr:@std/assert@1"
-        ]
-      },
       "libs/jsr/@axhxrx/json": {
         "dependencies": [
           "jsr:@std/assert@1"
