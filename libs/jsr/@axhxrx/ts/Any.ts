@@ -13,3 +13,7 @@ export type Any = any;
  */
 // deno-lint-ignore no-explicit-any
 export type LegacyAny = any;
+
+export const TEST_VALUE_THAT_IS_NOT_PUBLISHED_TO_JSR = 'TEST_VALUE_THAT_IS_NOT_PUBLISHED_TO_JSR';
+
+console.log(TEST_VALUE_THAT_IS_NOT_PUBLISHED_TO_JSR); 

@@ -5,7 +5,7 @@
 This library will be a collection of TypeScript utilities. However, it is not
 yet ready for use.
 
-It is being published only to test the publishing process.
+It is being published only to test the publishing process. Test!
 
 ## License
 

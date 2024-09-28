@@ -15,9 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@axhxrx/json.OFF": [
-        "built/@axhxrx/json/esm/mod.d.ts",
-        "built/@axhxrx/json/esm/mod.js",
+      "@axhxrx/json": [
+        "dist/@axhxrx/json/esm/json/mod.d.ts",
+        "dist/@axhxrx/json/esm/json/mod.js",
       ]
     }
   },

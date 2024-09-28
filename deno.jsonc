@@ -11,6 +11,7 @@
     "libs/jsr/@axhxrx/ts"
   ],
   "imports": {
-    "@deno/dnt": "jsr:@deno/dnt@^0.41.3"
+    "@deno/dnt": "jsr:@deno/dnt@^0.41.3",
+    "jsr:@axhxrx/ts": "./libs/jsr/@axhxrx/ts/mod.ts"
   }
 }

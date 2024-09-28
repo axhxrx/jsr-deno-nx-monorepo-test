@@ -1,5 +1,9 @@
 # jsr-deno-nx-monorepo-test
 
+This repo exists to serve as a reproduction case for 
+
+---
+
 This repo is a test/demonstration of a monorepo setup using Deno. I wrote this to learn how it works, and to test it and prove that it works how I think it does.
 
 As of this writing 2024-09-23, the "workspaces" feature isn't yet covered in the [docs](https://docs.deno.com/runtime/fundamentals/configuration/) and Deno 2 is not yet released. (I created this repo using `deno 2.0.0-rc.4`.)
