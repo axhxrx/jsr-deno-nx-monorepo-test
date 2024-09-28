@@ -1,4 +1,4 @@
-import type { Any } from 'jsr:@axhxrx/ts@0.1.2'
+import { type Any, TEST_VALUE_THAT_IS_NOT_PUBLISHED_TO_JSR } from 'jsr:@axhxrx/ts@0.1.2';
 
 /**
  Like `JSON.stringify()`, but without random key ordering. This implementation sorts the keys, including for any nested objects, and outputs a strings where the keys are always in the same stable order.
@@ -42,3 +42,5 @@ const keySortingReplacerFunc = (_unusedKey: string, value: Any) => {
     return value;
   }
 };
+
+export const fu = TEST_VALUE_THAT_IS_NOT_PUBLISHED_TO_JSR;

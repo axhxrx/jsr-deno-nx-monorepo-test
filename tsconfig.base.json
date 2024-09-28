@@ -16,8 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@axhxrx/json": [
-        "built/@axhxrx/json/esm/mod.d.ts",
-        "built/@axhxrx/json/esm/mod.js",
+        "dist/@axhxrx/json/esm/json/mod.d.ts",
+        "dist/@axhxrx/json/esm/json/mod.js",
       ]
     }
   },

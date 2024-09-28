@@ -33,15 +33,11 @@ export async function main() {
 
   await build({
     // @masonmark 2024-09-24: I feel like this SHOULD be enough to make DNT see that ./libs/@axhxrx/jsr/ts/mod.ts is v.0.1.2, and therefore "jsr:@axhxrx/ts@0.1.2" should resolve to the local monorepo. But it doesn'r
-    importMap: './deno.jsonc',
+    importMap: '../../../../deno.jsonc',
 
-    //So, try this:
+
     shims: {
       deno: true,
-      custom: [{
-        globalNames: ['jsr:@axhxrx/ts@0.1.2'],
-        module: './libs/@axhxrx/ts/mod.ts',
-      }],
     },
 
     //   typeCheck: false,

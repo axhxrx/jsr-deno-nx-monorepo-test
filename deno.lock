@@ -1,22 +1,19 @@
 {
   "version": "4",
   "specifiers": {
-    "jsr:@axhxrx/json@0.1.1": "0.1.1",
-    "jsr:@axhxrx/ts@0.1.0": "0.1.0",
-    "jsr:@axhxrx/ts@0.1.1": "0.1.1",
     "jsr:@david/code-block-writer@^13.0.2": "13.0.2",
     "jsr:@deno/cache-dir@~0.10.3": "0.10.3",
     "jsr:@deno/dnt@*": "0.41.3",
     "jsr:@std/assert@0.223": "0.223.0",
     "jsr:@std/assert@0.226": "0.226.0",
-    "jsr:@std/assert@1": "1.0.5",
+    "jsr:@std/assert@1": "1.0.6",
     "jsr:@std/bytes@0.223": "0.223.0",
     "jsr:@std/fmt@0.223": "0.223.0",
     "jsr:@std/fmt@1": "1.0.2",
     "jsr:@std/fs@0.223": "0.223.0",
     "jsr:@std/fs@1": "1.0.3",
     "jsr:@std/fs@~0.229.3": "0.229.3",
-    "jsr:@std/internal@^1.0.3": "1.0.3",
+    "jsr:@std/internal@^1.0.4": "1.0.4",
     "jsr:@std/io@0.223": "0.223.0",
     "jsr:@std/path@0.223": "0.223.0",
     "jsr:@std/path@1": "1.0.6",
@@ -27,15 +24,6 @@
     "jsr:@ts-morph/common@0.24": "0.24.0"
   },
   "jsr": {
-    "@axhxrx/json@0.1.1": {
-      "integrity": "6132cc80c71be2815a29e513a180e8fa39c223f860135ab9d38c4b6fc2f51609"
-    },
-    "@axhxrx/ts@0.1.0": {
-      "integrity": "7cd497eab0f51092ae40bcc50a25c31c0db9bbec94312d13a6d93967cc241fd1"
-    },
-    "@axhxrx/ts@0.1.1": {
-      "integrity": "ddd96ed943210675fa24461274d8c925bc79f7f5b2d7bb8a5d1119ef57ed6894"
-    },
     "@david/code-block-writer@13.0.2": {
       "integrity": "14dd3baaafa3a2dea8bf7dfbcddeccaa13e583da2d21d666c01dc6d681cd74ad"
     },
@@ -65,8 +53,8 @@
     "@std/assert@0.226.0": {
       "integrity": "0dfb5f7c7723c18cec118e080fec76ce15b4c31154b15ad2bd74822603ef75b3"
     },
-    "@std/assert@1.0.5": {
-      "integrity": "e37da8e4033490ce613eec4ac1d78dba1faf5b02a3f6c573a28f15365b9b440f",
+    "@std/assert@1.0.6": {
+      "integrity": "1904c05806a25d94fe791d6d883b685c9e2dcd60e4f9fc30f4fc5cf010c72207",
       "dependencies": [
         "jsr:@std/internal"
       ]
@@ -95,8 +83,8 @@
         "jsr:@std/path@^1.0.4"
       ]
     },
-    "@std/internal@1.0.3": {
-      "integrity": "208e9b94a3d5649bd880e9ca38b885ab7651ab5b5303a56ed25de4755fb7b11e"
+    "@std/internal@1.0.4": {
+      "integrity": "62e8e4911527e5e4f307741a795c0b0a9e6958d0b3790716ae71ce085f755422"
     },
     "@std/io@0.223.0": {
       "integrity": "2d8c3c2ab3a515619b90da2c6ff5ea7b75a94383259ef4d02116b228393f84f1",

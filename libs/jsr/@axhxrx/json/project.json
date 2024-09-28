@@ -1,0 +1,19 @@
+{
+  "name": "@axhxrx/json",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "library",
+  "sourceRoot": "libs/jsr/@axhxrx/json",
+  "tags": [],
+  "targets": {
+    "build-for-legaprise": {
+      "executor": "nx:run-commands",
+      "outputs": [
+        "{workspaceRoot}/dist/@axhxrx/json"
+      ],
+      "options": {
+        "command": "deno -A mod.ts --input ../json/mod.ts --output ../../../../dist/@axhxrx/json",
+        "cwd": "libs/jsr/@axhxrx/dnt-legaprise-builder"
+      }
+    }
+  }
+}
